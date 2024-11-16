@@ -79,7 +79,7 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     gap: 40px;
-    padding: 80px 240px;
+    padding: 80px 320px 120px 320px;
     background-color: white;
     color: black;
 }
@@ -88,12 +88,13 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
   }
 
 .cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 40px;
 }
 
@@ -115,4 +116,73 @@ h2 {
     border-radius: 8px;
 }
 
+.section-three {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 80px 360px;
+    background-color: #E5E7ED;
+    color: #1f2937;
+}
 
+h3 {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 350;
+}
+
+h4 {
+    font-weight: 700;
+    text-align: end;
+}
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 80px 240px;
+    background-color: white;
+    color: white;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: #3882F6;
+    border-radius: 16px;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+button.secondary {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: fit-content;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    font-weight: 700;
+}
